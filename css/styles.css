@@ -90,19 +90,126 @@ header.sticky{position:fixed;z-index:999}
 #education h2{color:#374054;margin-bottom:50px}
 .education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}
 .education-block h3{font-weight:500;float:left;margin:0;color:#374054}
-.education-block span{color:#74808a;float:right}
-.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}
-.education-block p,.education-block ul{margin:0;color:#74808a;font-size:0.9em}
-.education-block ul{padding:0 0 0 15px}
-#projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
-#projects h2{color:#374054;margin-bottom:50px}
-.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
-.project-image{float:left}
-.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
-.project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
-.project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
-.no-image .project-info{position:relative;margin:0;padding:30px 15px;transform:none}
+.education-block span{
+	color:#74808a;
+	float:right
+}
+.education-block h4{
+	color:#74808a;
+	clear:both;
+	font-weight:500;
+	margin:0 0 15px 0
+}
+.education-block p,.education-block ul{
+	margin:0;
+	color:#74808a;
+	font-size:0.9em
+}
+.education-block ul{
+	padding:0 0 0 15px
+}
+
+#achievement{
+	padding:50px 15px;
+	border-bottom:1px solid #dcd9d9;
+	text-align:center
+}
+#achievement h2{
+	color:#374054;
+	margin-bottom:50px
+}
+.achievement{
+	position:relative;
+	max-width:900px;
+	margin:0 auto 30px auto;
+	overflow:hidden;
+	background:#fff;
+	border-radius:4px
+}
+.achievement-image{
+	background-size: 150px;
+	width: 300px;
+	height: 450px;
+    resize: both;
+    float:left
+}
+.achievement-info{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left:300px;
+	padding:15px
+}
+.achievement-info h3{
+	font-size:1.5em;
+	font-weight:300;
+	color:#374054;
+	margin:0 0 15px 0
+}
+.achievement-info p{
+	color:#74808a;
+	margin:0 0 15px 0;
+	font-size:0.9em
+}
+.no-image .achievement-info{
+	position:relative;
+	margin:0;padding:30px 15px;
+	transform:none
+}
+#more-achievement{
+	display:none
+}
+
+#projects{
+	padding:50px 15px;
+	border-bottom:1px solid #dcd9d9;
+	text-align:center
+}
+#projects h2{
+	color:#374054;
+	margin-bottom:50px
+}
+.project{
+	position:relative;
+	max-width:900px;
+	margin:0 auto 30px auto;
+	overflow:hidden;
+	background:#fff;
+	border-radius:4px
+}
+.project-image{
+	background-size: 150px;
+	width: 300px;
+	height: 300px;
+    resize: both;
+    float:left
+}
+.project-info{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left:300px;
+	padding:15px
+}
+.project-info h3{
+	font-size:1.5em;
+	font-weight:300;
+	color:#374054;
+	margin:0 0 15px 0
+}
+.project-info p{
+	color:#74808a;
+	margin:0 0 15px 0;
+	font-size:0.9em
+}
+.no-image .project-info{
+	position:relative;
+	margin:0;
+	padding:30px 15px;
+	transform:none
+}
 #more-projects{display:none}
+
 #skills{padding:50px 15px;text-align:center}
 #skills h2{color:#374054;margin-bottom:50px}
 #skills ul{display:block;margin:0 auto;padding:0;max-width:800px}
