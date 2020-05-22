@@ -344,6 +344,15 @@ header.sticky{
 	top:100%;
 	left:303px
 }
+#experience-timeline ul,#experience-timeline ol{
+	margin:0;
+	color:#74808a;
+	font-size:0.9em
+	
+}
+#experience-timeline ul{
+	padding:0 0 0 15px
+}
 .vtimeline-content{
 	margin-left:350px;
 	background:#fff;
