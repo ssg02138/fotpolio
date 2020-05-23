@@ -833,4 +833,9 @@ header.sticky{
 		font-size:0.9em;
 		padding:5px 10px
 	}
+	.achievement-image{
+		width: 10px;
+		height: 20px;
+	    float:left
+	}
 }
