@@ -1,7 +1,5 @@
 # Kim Bumsuk Portfolio
 
-This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
-
 To view a my portfolio, [click here](https://ssg02138.github.io/).
 
 ## Contents
@@ -89,25 +87,8 @@ Skills contains the following: [#Skills](https://ssg02138.github.io/index.html#s
 
 ### Contact
 
-The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptaion of [RyanFitzgerald/vertical-timeline](https://github.com/RyanFitzgerald/vertical-timeline).
-
-The default format is as follows:
-
-```HTML
-<div id="experience-timeline">
-    <div data-date="September 2015 – September 2016">
-        <h3>Employer Name</h3>
-        <h4>Job Title</h4>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-        </p>
-    </div>
-</div>
-```
-
-The data attribute `data-date` is what is used to add a date to the associated timeline point. All that is really required is a wrapping div (i.e. `#experience-timeline`) and nested divs to build the timeline. The h3, h4, and p tags are optional and the contents of the div can be styled however you wish.
-
-To add additional section, simply add additional nested divs under the main wrapping div.
+Email : `ssg02138@naver.com`
+Github : `https://github.com/ssg02138/`
 
 ## Changelog
 
