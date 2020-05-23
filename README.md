@@ -21,13 +21,13 @@ To view a my portfolio, [click here](https://ssg02138.github.io/).
 
 ### About
 
-In about, Introduce my self.
+In About, Introduce my self.
 
 About contains the following: [#About](https://ssg02138.github.io/index.html#about)
 
 ### Achievement
 
-In achievement, show the achievement list.
+In Achievement, show the achievement list.
 
 Achievement contains the following: [#Achievement](https://ssg02138.github.io/index.html#achievement)
 
@@ -38,7 +38,7 @@ Achievement contains the following: [#Achievement](https://ssg02138.github.io/in
 
 ### Education
 
-In education, show the educational history and time line.
+In Education, show the educational history and time line.
 
 Education contains the following: [#Education](https://ssg02138.github.io/index.html#education)
 
@@ -46,7 +46,7 @@ Education contains the following: [#Education](https://ssg02138.github.io/index.
 
 ### Certificate
 
-In certificate, show the certificate list.
+In Certificate, show the certificate list.
 
 Certificate contains the following: [#Certificate](https://ssg02138.github.io/index.html#certificate)
 
@@ -56,21 +56,36 @@ Certificate contains the following: [#Certificate](https://ssg02138.github.io/in
 * `특수용접기능사` - 한국산업인력공단 - 2013.07.19.
 * `CSWA` - SOLIDWORKS - 2013.06.27.
 
+### Experience
+
+In Experience, show the career list.
+
+Experience contains the following: [#Experience](https://ssg02138.github.io/index.html#experience)
+
+* `중소기업진흥공단` - 2013.06. ~ 2014.02
+* `(주)윈스` - 2020.02. ~ 2020.06.
+
 ### Projects
 
-The Lead section is pretty straightforward, it contains an h1 for your name and an h2 for your title. It also contains a link that can be used to link to your resume should you wish to add it as well.
+In Projects, show the project lists.
 
-If you want your resume to automatically download when the button is clicked instead of opening up in another tab (the default behaviour), add the following code (Thanks to jkfran for the suggestion) in the lead:
+Projects contains the following: [#Projects](https://ssg02138.github.io/index.html#projects)
 
-```HTML
-<a href="path/to/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
-```
-
-The href attribute points to where your resume is stored and the download attribute is what triggers the download / provides the name the file will be downloaded as when the user clicks the button (In this case, it will download as resume.pdf).
+* Smart Streetlight System Using Public Data - `Plannig & Development`
+* Location-based tourism information docent service using OpenAPI - `Plannig & Development`
+* Disaster response and safety management system using Arduino - `Plannig & Development`
+* 2019 K-Cyber Security Challenge_AI based malware detection Track - `PE Malware`
+* NodeJS based Smart Mirror Project - `Plannig & Development`
+* 2019 ROK Army Cyber Security Competition - `Forensic`
+* 2019 Crypto Analysis Competition - `IoT cryptography and optimization issues`
+* 2019 AI Dataset Idea Competition - `Plannig & Development`
+* Security Control Traffic Data based ELK Stack System - `Development`
 
 ### Skills
 
-The about section contains a quick about blurb that can be edited by changing the text within the paragraph tags.
+In Skills, show a list of skills you can use.
+
+Skills contains the following: [#Skills](https://ssg02138.github.io/index.html#skills)
 
 ### Contact
 
