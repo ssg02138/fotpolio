@@ -24,42 +24,23 @@ To view a my portfolio, [click here](https://ssg02138.github.io/).
     - [Skills](#skills)
     - [Contact](#contact)
 - [Changelog](#changelog)
-- [License](#license)
 
 ## Sections
 
 ### About
 
-In general, most styles on the page are based off the definitions of variables in the variable section of the style sheet:
-
-```SCSS
-// Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
-
-// Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
-
-// Define border colors
-$border: #dcd9d9;
-
-// Define text colors
-$heading: #374054;
-$text: #74808a;
-```
-
-If you wish to change the general colour scheme of the page for example, simply change the value of `$base-color`.
-
-There is also a number of default CSS classes that can be applied such as `.shadow`, `.shadow-large`, `.btn-rounded-white`, and various others. These can be found under the General Styles section in the style sheet.
+In about, `Introduce my self`.
+About contains the following: [About](https://ssg02138.github.io/index.html#about)
 
 ### Achievement
 
-By default, the template comes with a number of images, some of which can be kept and others which act simply as placeholders and should be switched. The template contains the following:
+In achievement, show the achievement list.
+Achievement contains the following: [Achievement](https://ssg02138.github.io/index.html#achievement)
 
-* Main background (images/lead-bg.jpg) - this is the main background image provided via [Unsplash](https://unsplash.com/). This can be kept or changed easily by replacing `images/lead-bg.jpg` with your new background (recommended size of at least 1920x1080).
-* Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can kept or changed easily by replacing the `favicon.ico` with your new one.
-* Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
+* Win a Prize to 2019 National Assembly Hackerton - Smart Streetlight System Using Public Data - `Team Leader`
+* Win a Prize to 2019 Software Development Security Competition - Location-based tourism information docent service using OpenAPI - `Team Leader`
+* Win a Prize to 2019 Hanium ICT Competition - Disaster response and safety management system using Arduino - `Team Leader`
+* Patent Application - USER ADAPTIVE NEWS SERVICE METHOD AND SERVER BASED ON DEEP LEARNING
 
 ### Education
 
@@ -121,8 +102,6 @@ To add additional section, simply add additional nested divs under the main wrap
 
 ## Changelog
 
-### 1.1.0
+### 1.0.0
 
-* Fixed menu toggle on mobile devices
-* Fixed z-index / scrolling issue with mobile menu
-* Mobile menu now closes once a nav element is hit
+* As of 2020. 05. 23.
