@@ -560,7 +560,6 @@ header.sticky{
 	background:#fff;
 	border-radius:4px
 }
-
 .project-image{
 	background-size: 150px;
 	width: 300px;
@@ -600,7 +599,6 @@ header.sticky{
 	transform:none
 }
 #more-projects{display:none}
-
 #skills{
 	padding:50px 15px;
 	background:#3498db;
@@ -628,7 +626,6 @@ header.sticky{
 	cursor:default;
 	font-size:1.2em
 }
-
 .optional-section{
 	padding:50px 15px;
 	text-align:center;
