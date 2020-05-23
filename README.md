@@ -4,14 +4,6 @@ This repo contains an easy-to-customize personal dev portfolio template that was
 
 To view a my portfolio, [click here](https://ssg02138.github.io/).
 
-## Features
-
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
-* Fully responsive
-* Comes with Bootstrap grid system
-* Easy colour changes can be done through simple variable edits
-
 ## Contents
 
 - [Sections](#sections)
@@ -29,40 +21,40 @@ To view a my portfolio, [click here](https://ssg02138.github.io/).
 
 ### About
 
-In about, `Introduce my self`.
+In about, Introduce my self.
 
-About contains the following: [About](https://ssg02138.github.io/index.html#about)
+About contains the following: [#About](https://ssg02138.github.io/index.html#about)
 
 ### Achievement
 
 In achievement, show the achievement list.
 
-Achievement contains the following: [Achievement](https://ssg02138.github.io/index.html#achievement)
+Achievement contains the following: [#Achievement](https://ssg02138.github.io/index.html#achievement)
 
 * Win a Prize to 2019 National Assembly Hackerton - Smart Streetlight System Using Public Data - `Team Leader`
 * Win a Prize to 2019 Software Development Security Competition - Location-based tourism information docent service using OpenAPI - `Team Leader`
 * Win a Prize to 2019 Hanium ICT Competition - Disaster response and safety management system using Arduino - `Team Leader`
-* Patent Application - USER ADAPTIVE NEWS SERVICE METHOD AND SERVER BASED ON DEEP LEARNING
+* USER ADAPTIVE NEWS SERVICE METHOD AND SERVER BASED ON DEEP LEARNING - `Patent Application`
 
 ### Education
 
-The header section can be found within the `<header>` tag and simply contains an unordered list of anchors to different sections of the page. If you add a new section and want to be able to quickly navigate to it from the top, simply add another list element with an anchor that has the href of the ID of the section. Conversely, if you remove a section, don't forget to remove the associated navigation element.
+In education, show the educational history and time line.
 
-If you wish to add a header link to an external page, simply add the class `no-scroll` to the anchor. For example:
+Education contains the following: [#Education](https://ssg02138.github.io/index.html#education)
 
-```HTML
-<li>
-    <a href="https://google.com" class="no-scroll">Google</a>
-</li>
-```
+* University of Suwon - Information Security
 
-If you wish to have a sticky (fixed) header, you simply need to add a class of `sticky` to the main header. For example, that would be accomplished as follows:
+### Certificate
 
-```HTML
-<header class="sticky">
-    <!-- Header content -->
-</header>
-```
+In certificate, show the certificate list.
+
+Certificate contains the following: [#Certificate](https://ssg02138.github.io/index.html#certificate)
+
+* `ITQ OA Master` - 한국생산성본부 - 2013.11.26.
+* `인터넷보안전문가 2급` - 한국정보통신자격협회 - 2016.12.06.
+* `인터넷윤리자격 2급` - 한국생산성본부 - 2016.12.213.
+* `특수용접기능사` - 한국산업인력공단 - 2013.07.19.
+* `CSWA` - SOLIDWORKS - 2013.06.27.
 
 ### Projects
 
