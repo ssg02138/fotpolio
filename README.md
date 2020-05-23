@@ -1,10 +1,8 @@
-# Dev Portfolio
+# Kim Bumsuk Portfolio
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
-
-Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
+To view a my portfolio, [click here](https://ssg02138.github.io/).
 
 ## Features
 
@@ -16,44 +14,19 @@ Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgeral
 
 ## Contents
 
-- [Setup and Configuration](#setup-and-configuration)
-    - [Making Edits / Customizing the Template](#making-edits--customizing-the-template)
-    - [Using the Template As Is](#using-the-template-as-is)
-- [Customization and Editing](#customization-and-editing)
-    - [General](#general)
-    - [Images](#images)
-    - [Header Section](#header-section)
-    - [Lead Section](#lead-section)
-    - [About Section](#about-section)
-    - [Experience Section](#experience-section)
-    - [Education Section](#education-section)
-    - [Projects Section](#projects-section)
-    - [Skills Section](#skills-section)
-    - [Contact Section](#contact-section)
-    - [Footer Section](#footer-section)
-    - [Optional Sections](#optional-sections)
+- [Sections](#sections)
+    - [About](#general)
+    - [Achievement](#images)
+    - [Education](#header-section)
+    - [Certificate](#lead-section)
+    - [Experience](#about-section)
+    - [Projects](#experience-section)
+    - [Skills](#education-section)
+    - [Contact](#projects-section)
 - [Changelog](#changelog)
 - [License](#license)
 
-## Setup and Configuration
-
-The setup required can be broken into two types:
-1. If you want to make edits or customize the template
-2. If you just want to add your information as use as is
-
-### Making Edits / Customizing the Template
-
-To setup, simply fork the repo and run `npm install` in order to get all the Gulp dev dependencies. Next, run `Gulp watch` to compile the Sass and minify the JavaScript. Alternatively, if you don't have Gulp installed globally, you can run the npm script `npm run watch`. Any changes done to the JavaScript (js/scripts.js) or Sass (sass/styles.scss) will be autocompiled and ready to go.
-
-All scripts are within `js/scripts.js` and get minified to `js/scripts.min.js`. All styles are in `sass/styles.scss` and get compiled to `css/styles.css`. Both the minified scripts file and compiled CSS file are what is loaded on the page by default.
-
-At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below  contains a quick breakdown of each of the default sections and how they work.
-
-### Using The Template As Is
-
-If you wish to use the template as is (i.e. how it's seen in the demo), then all that's required is the `css`, `images`, `js`, `libs` folders and the `index.html` file. You would then add your content to `index.html` as needed and you're good to go!
-
-## Customization and Editing
+## Sections
 
 ### General
 
@@ -299,38 +272,6 @@ You can copy .optional-section-block for each new item you wish you have in the 
 The optional section blocks have styling for h3 (the block title), h4, p, and ul tags by default.
 
 ## Changelog
-
-### 1.2.2
-
-* Updated dependencies and gulpfile
-
-### 1.2.1
-
-* Updated dependencies and gulpfile
-* Added `no-image` optional class for projects without images (see above for usage)
-
-### 1.2.0
-
-* Added support for optional "Show More Projects" that hides some projects by default if included
-* Added optional sections to display certifications, languages, etc.
-
-### 1.1.3
-
-* Added default favicon to be used or changed
-* Added `sticky` class to make header fixed
-* Updated docs to add image section
-
-### 1.1.2
-
-* Added `no-scroll` class option to header navigation anchor if you want to link to external site
-* Changed contact form input / textarea colours to be based off `$base-color`
-* Changed main background to 100vh so it doesn't overflow if viewport height < 700px
-
-### 1.1.1
-
-* Made input placeholder text more readable
-* Removed timeline line when no JS
-* Added some basic styling to timeline when no JS
 
 ### 1.1.0
 
